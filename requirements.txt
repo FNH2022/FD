@@ -1,0 +1,4 @@
+
+sudo Install OpenCV and TensorFlow with conda
+sudo install -c conda-forge opencv
+sudo  -c conda-forge tensorflow
