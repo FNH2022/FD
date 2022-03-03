@@ -15,9 +15,9 @@ face_cascade = cv2.CascadeClassifier(
     cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
     # Load model to face classification
 # model was created in me_not_me_classifier.ipynb notebook
-model_name = 'face_classifier_MobileNet_15.h5'
+model_name = 'FT.tflit'
 
-face_classifier = keras.models.load_model(f'models/{model_name}')
+face_classifier = keras.models.load_model(f'https://drive.google.com/file/d/1CnPF-fo1wRnudlVtTZZa64CloSj7VSEG/view?usp=sharing/{model_name}')
 class_names = ['Farhad', 'Tylor']
 def get_extended_image(img, x, y, w, h, k=0.1):
     '''
